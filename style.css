@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgba(104, 150, 147, 0.26);
+}
+
+.logo{
+    width: 30px;
+    height: 40px;
+}
+nav{
+    background-color: lightseagreen;
+    padding: 15px;
+}
+.name{
+    color: whitesmoke;
+    margin-left: 10px;
+    font-weight: 500;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+}
+.logo-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+.nav-items a{
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0 15px;
+}
+
+/* Top Players */
+
+
+.top-players{
+
+    /* padding: 40px 300px; */
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.title{
+    margin-bottom: 30px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: darkcyan;
+}
+.player{
+    width: 50px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.player-name{
+    margin-top: 15px;
+    font-weight: 550;
+}
+
+.players div{
+    display: flex;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 15px;
+    padding: 20px;
+}
+hr{
+    border: 1px solid #d1d1d1 ;
+}
+
+/* Top Blogs */
+
+
+.blog{
+    margin-top: 20px;
+    display: flex;
+    margin-right: 20px;
+}
+
+.blogs{
+    padding-left: 20px;
+    padding-bottom: 30px;
+    display:grid ;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.blog-img{
+    width: 180px;
+}
+
+.blog-info{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.blog-title{
+    font-weight: 550;
+}
+
+.owner{
+    margin-top: 10px;
+    color: gray;
+}
+
+span{
+    color: darkcyan;
+}
+
+
+/* lates Course */
+
+
+.lates-course{
+
+    /* padding: 40px 300px; */
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 90vh;
+    justify-content: center;
+    align-items: center;
+   
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+
+.course{
+
+    
+    
+    width: 250px;
+    box-shadow: 5px 5px  10px grey;
+    border-radius: 15px;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.course-img{
+    width: 250px;
+}
+
+.course-name{
+    padding: 10px;
+}
+.author{
+    color: lightcoral;
+    padding-left: 10px;
+}
+
+.fa-star{
+
+    font-size: 12px;
+    
+}
+.fa-clock{
+    margin-left: 5px;
+}
+.reviwe{
+    padding-left: 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+.ratt{
+    margin-left: 8px ;
+    font-size: 14px;
+}
+
+.time{
+   display: flex;
+   margin-left: 50px;
+   font-size: 15px;
+   align-items: center;
+   background-color: rgba(255, 182, 193, 0.63);
+   border-radius: 30px;
+   color: palevioletred;
+   height: 30px;
+   width: 90px;
+
+}
+.due{
+    margin-left: 5px;
+}
+

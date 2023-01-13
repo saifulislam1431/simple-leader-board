@@ -217,3 +217,33 @@ span{
     margin-left: 5px;
 }
 
+
+/* Media Queries */
+
+@media only screen and (max-width: 668px) {
+
+    .players{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .blogs{
+        grid-template-columns: repeat(1, 370px);
+    }
+
+    .courses{
+        grid-template-columns: repeat(1, 1fr);
+    
+    }
+    .course{
+        margin-bottom: 40px;
+    }
+  
+    .lates-course{
+        width: 90vw;
+    }
+    .top-players{
+        width: 95vw;
+    }
+    
+}
+
